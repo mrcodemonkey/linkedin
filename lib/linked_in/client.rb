@@ -71,16 +71,6 @@ module LinkedIn
       post(path, comment_to_xml(comment))
     end
 
-    def like(network_key, is_liked=true)
-      path = "/people/~/network/updates/key=#{network_key}/is-liked"
-      put(path, is_liked_to_xml(is_liked))
-    end
-
-    def likes(network_key)
-      path = "/people/~/network/updates/key=#{network_key}/likes"
-      Likes.from_xml(get(path)).likes
-    end
-
     def update_network(message)
       path = "/people/~/person-activities"
       post(path, network_update_to_xml(message))
@@ -90,6 +80,7 @@ module LinkedIn
       path = "/people/~/current-status"
       delete(path).code
     end
+
 
     def send_message(subject, body, recipient_paths)
       path = "/people/~/mailbox"
@@ -109,6 +100,36 @@ module LinkedIn
       message.recipients = recipients
       post(path, message_to_xml(message)).code
     end
+
+
+
+  def send_invite(email, first_name, last_name)
+      path = "/people/~/mailbox"
+xml = "
+<mailbox-item>
+  <recipients>
+    <recipient>
+       <person path='/people/email=#{email}'>
+        <first-name>#{first_name}</first-name>
+        <last-name>#{last_name}</last-name>
+      </person>
+    </recipient>
+  </recipients>
+  <subject>Invitation to Connect</subject>
+  <body>Please join my professional network on LinkedIn.</body>
+  <item-content>
+    <invitation-request>
+      <connect-type>friend</connect-type>
+    </invitation-request>
+  </item-content>
+</mailbox-item>
+"
+   
+      post(path, xml).code
+    end
+
+  
+
 
     def network_statuses(options={})
       options[:type] = 'STAT'
