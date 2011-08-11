@@ -18,6 +18,11 @@ module LinkedIn
         simple_query(path, options)
       end
 
+       def group_memberships(options={})
+        path = "#{person_path(options)}/group-memberships:(group:(id,name))"
+        simple_query(path, options)
+      end
+
       private
 
         def simple_query(path, options={})
