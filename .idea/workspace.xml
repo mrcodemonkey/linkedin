@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87af35b2-e8cf-40fb-a067-0c1a6a2b993d" name="Default" comment="" />
+    <list default="true" id="87af35b2-e8cf-40fb-a067-0c1a6a2b993d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/linked_in/client.rb" afterPath="$PROJECT_DIR$/lib/linked_in/client.rb" />
+    </list>
     <ignored path="linkedin.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,7 +56,7 @@
       <file leaf-file-name="client.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/linked_in/client.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="22" selection-start="546" selection-end="546" vertical-scroll-proportion="0.37666175">
+            <state line="18" column="25" selection-start="572" selection-end="572" vertical-scroll-proportion="0.3988183">
               <folding />
             </state>
           </provider>
@@ -221,7 +224,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="926" y="329" width="1691" height="1145" extended-state="0" />
+    <frame x="788" y="91" width="1691" height="1145" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32953465" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -308,7 +311,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/linked_in/client.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="22" selection-start="546" selection-end="546" vertical-scroll-proportion="0.37666175">
+        <state line="18" column="25" selection-start="572" selection-end="572" vertical-scroll-proportion="0.3988183">
           <folding />
         </state>
       </provider>

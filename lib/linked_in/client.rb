@@ -16,7 +16,7 @@ module LinkedIn
     end
 
     def hello
-      puts "say hello"
+      puts "say hello yo."
     end
 
     def profile(options={})
