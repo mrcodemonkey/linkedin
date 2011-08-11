@@ -15,6 +15,9 @@ module LinkedIn
       @ctoken, @csecret, @consumer_options = ctoken, csecret, opts.merge(options)
     end
 
+    def hello
+      puts "say hello"
+    end
 
     def profile(options={})
       path   = person_path(options)
@@ -170,6 +173,23 @@ xml = "
         else
           path += "~"
         end
+      end
+
+
+      def group_membership_path(options)
+        path = "/people/"
+        if options[:id]
+          path += "id=#{options[:id]}"
+
+        elsif options[:url]
+          path += "url=#{CGI.escape(options[:url])}"
+        else
+          path += "~"
+        end
+
+        path += "/group-memberships:(group:(id,name))"
+
+
       end
 
   end
