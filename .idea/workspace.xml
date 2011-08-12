@@ -55,7 +55,7 @@
       <file leaf-file-name="group.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/linked_in/group.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="24" selection-start="754" selection-end="754" vertical-scroll-proportion="0.57128906">
+            <state line="7" column="23" selection-start="230" selection-end="230" vertical-scroll-proportion="0.10253906">
               <folding />
             </state>
           </provider>
@@ -443,7 +443,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/linked_in/group.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="24" selection-start="754" selection-end="754" vertical-scroll-proportion="0.57128906">
+        <state line="7" column="23" selection-start="230" selection-end="230" vertical-scroll-proportion="0.10253906">
           <folding />
         </state>
       </provider>
