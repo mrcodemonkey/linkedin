@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87af35b2-e8cf-40fb-a067-0c1a6a2b993d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/linked_in/client.rb" afterPath="$PROJECT_DIR$/lib/linked_in/client.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/linked_in/group.rb" afterPath="$PROJECT_DIR$/lib/linked_in/group.rb" />
     </list>
     <ignored path="linkedin.iws" />
@@ -56,7 +55,7 @@
       <file leaf-file-name="group.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/linked_in/group.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="40" selection-start="677" selection-end="677" vertical-scroll-proportion="0.49804688">
+            <state line="34" column="46" selection-start="683" selection-end="683" vertical-scroll-proportion="0.49804688">
               <folding />
             </state>
           </provider>
@@ -444,7 +443,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/linked_in/group.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="40" selection-start="677" selection-end="677" vertical-scroll-proportion="0.49804688">
+        <state line="34" column="46" selection-start="683" selection-end="683" vertical-scroll-proportion="0.49804688">
           <folding />
         </state>
       </provider>
