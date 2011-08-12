@@ -9,7 +9,7 @@ module LinkedIn
     end
 
     class Resource
-
+=begin
       def initialize(group)
         @group = group
       end
@@ -25,6 +25,19 @@ module LinkedIn
       def url
         @group.xpath('//member-group/site-group-request/url').text
       end
+=end
+      def initialize(group)
+        @group = group
+      end
+
+      def id
+        @group.xpath('//group-membership/group/id').text.to_i
+      end
+
+      def name
+        @group.xpath('//group-membership/group/name').text
+      end
+
 
     end
 

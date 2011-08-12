@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="87af35b2-e8cf-40fb-a067-0c1a6a2b993d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/linked_in/client.rb" afterPath="$PROJECT_DIR$/lib/linked_in/client.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/linked_in/group.rb" afterPath="$PROJECT_DIR$/lib/linked_in/group.rb" />
     </list>
     <ignored path="linkedin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,10 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="client.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="client.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/linked_in/client.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="33" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.43945312">
+            <state line="34" column="11" selection-start="985" selection-end="985" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="connections.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/linked_in/connections.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="31" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -37,32 +47,23 @@
       <file leaf-file-name="profile.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/linked_in/profile.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="51" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.0">
+            <state line="34" column="70" selection-start="1069" selection-end="1069" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="group.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="group.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/linked_in/group.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="26" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0">
+            <state line="39" column="0" selection-start="779" selection-end="779" vertical-scroll-proportion="0.57128906">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="linkedin.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/linkedin.rb">
+      <file leaf-file-name="publications.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/linked_in/publications.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -130,6 +131,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/lib/linked_in/api/query_methods.rb" />
+        <option value="$PROJECT_DIR$/lib/linked_in/group.rb" />
         <option value="$PROJECT_DIR$/lib/linked_in/client.rb" />
       </list>
     </option>
@@ -293,7 +295,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1081" y="30" width="1691" height="1145" extended-state="0" />
+    <frame x="834" y="22" width="1691" height="1145" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -357,11 +359,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/linked_in/people.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/linked_in/person.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -380,13 +377,6 @@
     <entry file="file://$PROJECT_DIR$/lib/linked_in/api_standard_profile_request.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/linked_in/connections.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="31" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
@@ -424,21 +414,37 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/linked_in/publications.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/linked_in/profile.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="51" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.0">
+        <state line="34" column="70" selection-start="1069" selection-end="1069" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/linked_in/connections.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="31" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/linked_in/client.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="11" selection-start="985" selection-end="985" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/linked_in/group.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="26" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/linked_in/client.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="33" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.43945312">
+        <state line="39" column="0" selection-start="779" selection-end="779" vertical-scroll-proportion="0.57128906">
           <folding />
         </state>
       </provider>

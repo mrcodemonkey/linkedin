@@ -32,7 +32,7 @@ module LinkedIn
         path +=":(#{fields.map{ |f| f.to_s.gsub("_","-") }.join(',')})"
       end
 
-      Profile.from_xml(get(path))
+      Group.from_xml(get(path))
     end
 
     def profile(options={})
