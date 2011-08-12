@@ -4,6 +4,8 @@ module LinkedIn
     def groups
       @groups ||= @doc.children.inject([]) do |list, group|
         list << Resource.new(group) unless group.blank?
+        puts list
+        puts group
         list
       end
     end
@@ -35,7 +37,7 @@ module LinkedIn
       end
 
       def name
-        @group += @group.xpath('//group-membership/group/name').text + ";"
+        @group.xpath('//group-membership/group/name').text
       end
 
 
