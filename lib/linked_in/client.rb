@@ -14,9 +14,24 @@ module LinkedIn
       }
       @ctoken, @csecret, @consumer_options = ctoken, csecret, opts.merge(options)
     end
-
+=begin
     def groups(options={})
       path = group_membership_path(options)
+      Profile.from_xml(get(path))
+    end
+=end
+
+    def groups(options={})
+      path = "#{group_membership_path(options)}/group-memberships"
+
+      fields = options[:fields] || LinkedIn.default_profile_fields
+
+      if options[:public]
+        path +=":public"
+      elsif fields
+        path +=":(#{fields.map{ |f| f.to_s.gsub("_","-") }.join(',')})"
+      end
+
       Profile.from_xml(get(path))
     end
 
@@ -188,7 +203,7 @@ xml = "
           path += "~"
         end
 
-        path += "/group-memberships:(group:(id,name))"
+        #path += "/group-memberships:(group:(id,name))"
 
 
       end
