@@ -15,8 +15,9 @@ module LinkedIn
       @ctoken, @csecret, @consumer_options = ctoken, csecret, opts.merge(options)
     end
 
-    def hello
-      puts "say hello yo."
+    def groups(options={})
+      path = group_membership_path(options)
+      Profile.from_xml(get(path))
     end
 
     def profile(options={})
