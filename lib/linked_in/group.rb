@@ -4,8 +4,7 @@ module LinkedIn
     def groups
       @groups ||= @doc.children.inject([]) do |list, group|
         list << Resource.new(group) unless group.blank?
-        puts "list" + list
-        puts "group" + group
+
         list
       end
     end
