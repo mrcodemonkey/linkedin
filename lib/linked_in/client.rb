@@ -22,16 +22,7 @@ module LinkedIn
 =end
 
     def groups(options={})
-      path = "#{group_membership_path(options)}/group-memberships"
-
-      fields = options[:fields] || LinkedIn.default_profile_fields
-
-      if options[:public]
-        path +=":public"
-      elsif fields
-        path +=":(#{fields.map{ |f| f.to_s.gsub("_","-") }.join(',')})"
-      end
-
+      path = "#{group_membership_path(options)}/group-memberships:(group:(id,name))"
       Group.from_xml(get(path))
     end
 

@@ -31,6 +31,10 @@ module LinkedIn
         @group = group
       end
 
+      def group_membership
+        @group.xpath('//group-membership').text
+      end
+
       def id
         @group.xpath('//group/id').text.to_i
       end

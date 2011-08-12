@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87af35b2-e8cf-40fb-a067-0c1a6a2b993d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/linked_in/client.rb" afterPath="$PROJECT_DIR$/lib/linked_in/client.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/linked_in/group.rb" afterPath="$PROJECT_DIR$/lib/linked_in/group.rb" />
     </list>
     <ignored path="linkedin.iws" />
@@ -28,7 +29,7 @@
       <file leaf-file-name="client.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/linked_in/client.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="48" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0">
+            <state line="25" column="6" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -55,7 +56,7 @@
       <file leaf-file-name="group.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/linked_in/group.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="180" selection-end="180" vertical-scroll-proportion="0.087890625">
+            <state line="34" column="40" selection-start="677" selection-end="677" vertical-scroll-proportion="0.49804688">
               <folding />
             </state>
           </provider>
@@ -420,13 +421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/linked_in/connections.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="80" selection-end="267" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/linked_in/profile.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="70" selection-start="1069" selection-end="1069" vertical-scroll-proportion="0.0">
@@ -434,16 +428,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/linked_in/connections.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="80" selection-end="267" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/linked_in/client.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="48" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0">
+        <state line="25" column="6" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/linked_in/group.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="180" selection-end="180" vertical-scroll-proportion="0.087890625">
+        <state line="34" column="40" selection-start="677" selection-end="677" vertical-scroll-proportion="0.49804688">
           <folding />
         </state>
       </provider>
