@@ -33,11 +33,11 @@ module LinkedIn
       end
 
       def id
-        @group.xpath('//group-membership/group/id').text.to_i
+        @group.xpath('//group/id').text.to_i
       end
 
       def name
-        @group.xpath('//group-membership/group/name').text
+        @group.xpath('//group/name').text
       end
 
 
