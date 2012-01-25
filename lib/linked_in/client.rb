@@ -22,7 +22,7 @@ module LinkedIn
 =end
 
     def groups(options={})
-      path = "#{group_membership_path(options)}/group-memberships:(group:(name))"
+      path = "#{group_membership_path(options)}/group-memberships:(group:(name))?count=50"
       Group.from_xml(get(path))
     end
 
